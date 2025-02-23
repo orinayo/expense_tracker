@@ -7,7 +7,7 @@ This project is a simple **Expense Tracker** built using Python. It provides:
 - An `Expense` class for handling individual expenses.
 - An `ExpenseDatabase` class to manage multiple expenses.
 
-The project follows **object-oriented programming (OOP)** principles, ensuring modularity and ease of use.
+The project follows **object-oriented programming (OOP)** principles ensuring modularity.
 
 ---
 
@@ -16,10 +16,8 @@ The project follows **object-oriented programming (OOP)** principles, ensuring m
 To clone this project, ensure you have **Git installed**, then run:
 
 ```sh
-# Clone the repository
 git clone git@github.com:orinayo/expense_tracker.git
 
-# Change into the project directory
 cd expense-tracker
 ```
 

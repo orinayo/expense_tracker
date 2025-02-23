@@ -9,11 +9,11 @@ class Expense:
         :param title: Title of the expense.
         :param amount: Amount of the expense.
         """
-        self.id = str(uuid.uuid4())  # Unique identifier as a UUID string
+        self.id = str(uuid.uuid4())
         self.title = title
         self.amount = amount
         self.created_at = datetime.now(timezone.utc)
-        self.updated_at = self.created_at  # Initially set to created_at
+        self.updated_at = self.created_at
 
     def update(self, title: str = None, amount: float = None):
         """
@@ -33,6 +33,7 @@ class Expense:
     def to_dict(self):
         """
         Converts the Expense instance to a dictionary.
+        
         :return: Dictionary representation of the Expense.
         """
         return {
